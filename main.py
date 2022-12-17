@@ -3,6 +3,7 @@ import streamlit as st
 
 st.title('RupeeX')
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 inputnumber = st.number_input('INPUT CURRENCY')
@@ -14,4 +15,11 @@ input_option = st.selectbox('Enter current currency',
     ('USD','GBP','EURO'))
 
 st.write('Current currency : ', input_option)
+>>>>>>> Stashed changes
+=======
+output_option = st.selectbox(
+    'Converted Currency',
+    ('USD', 'Rupee', 'KRW'))
+
+st.write('Converted currency:', output_option)
 >>>>>>> Stashed changes
