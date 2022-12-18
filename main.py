@@ -46,9 +46,12 @@ with col2:
                 (currency_list))
             st.write('Converted currency:', output_option)
             outputnumber = st.number_input('OUTPUT CURRENCY')
-            st.write('The current value is ',result)
+            st.write('The current value is ',outputnumber)
 
+  
 
+st.write('')
+st.write('Made by LUNE')
 
 
 
