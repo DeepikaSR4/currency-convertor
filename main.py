@@ -12,18 +12,18 @@ st.text(" ")
 currency_list = ['AUD', ' BGN', ' BRL', ' CAD', ' CHF', ' CNY', ' CZK', ' DKK', ' GBP', ' HKD', 'HRK', 'HUF', 'IDR', 'ILS','EUR','INR', 'ISK', 'JPY', 'KRW', 'MXN', 'MYR', 'NOK', 'NZD', 'PHP', 'PLN', 'RON', 'RUB', 'SEK', 'SGD', 'THB', 'TRY', 'USD', 'ZAR']
 
 
-url = "https://currency-conversion-and-exchange-rates.p.rapidapi.com/convert"
+# url = "https://currency-conversion-and-exchange-rates.p.rapidapi.com/convert"
 
-querystring = {"from": input_option,"to": output_option,"amount":inputnumber}
+# querystring = {"from": input_option,"to": output_option,"amount":inputnumber}
 
-headers = {
-	"X-RapidAPI-Key": "50433c2987msh40a9b38598b4f4bp183a24jsnc259adef6df4",
-	"X-RapidAPI-Host": "currency-conversion-and-exchange-rates.p.rapidapi.com"
-}
+# headers = {
+# 	"X-RapidAPI-Key": "50433c2987msh40a9b38598b4f4bp183a24jsnc259adef6df4",
+# 	"X-RapidAPI-Host": "currency-conversion-and-exchange-rates.p.rapidapi.com"
+# }
 
-response = requests.request("GET", url, headers=headers, params=querystring)
-output = response.json()
-result=output['result']
+# response = requests.request("GET", url, headers=headers, params=querystring)
+# output = response.json()
+# result=output['result']
 
 
 
