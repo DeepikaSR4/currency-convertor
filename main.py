@@ -8,6 +8,7 @@ st.title('RupeeX')
 st.text(" ")
 st.text(" ")
 
+
 currency_list = ['AUD', ' BGN', ' BRL', ' CAD', ' CHF', ' CNY', ' CZK', ' DKK', ' GBP', ' HKD', 'HRK', 'HUF', 'IDR', 'ILS','EUR','INR', 'ISK', 'JPY', 'KRW', 'MXN', 'MYR', 'NOK', 'NZD', 'PHP', 'PLN', 'RON', 'RUB', 'SEK', 'SGD', 'THB', 'TRY', 'USD', 'ZAR']
 
 
@@ -23,7 +24,7 @@ with col1:
           
 
 with col2:
-            inputnumber = st.text_input("INPUT AMOUNT")
+            inputnumber = st.number_input("INPUT AMOUNT")
             
 with col3:
           output_option = st.selectbox('Converted Currency',
