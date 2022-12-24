@@ -24,7 +24,7 @@ with col1:
           
 
 with col2:
-            inputnumber = st.number_input("INPUT AMOUNT")
+            inputnumber = st.number_input("INPUT AMOUNT",value=1.00)
             
 with col3:
           output_option = st.selectbox('Converted Currency',
@@ -50,8 +50,8 @@ if response.status_code == 200:
 
       data = response.json()
       print(data)
-      exchange_rate = data['result']
-      result = float(inputnumber) * exchange_rate
+      result = data['result']
+      
 
 if result!=0:
   col1, col2,col3= st.columns(3,gap="large")
