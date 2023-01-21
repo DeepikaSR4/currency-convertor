@@ -1,6 +1,5 @@
 # RupeeX
-A currency converter developed at Tink-her-hack 
-hackathon by team LUNE.
+A currency converter developed at Tink-her-hack hackathon by team LUNE.
 
 ## Introduction
 
